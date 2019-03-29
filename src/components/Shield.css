@@ -1,0 +1,7 @@
+.Shield-link {
+    cursor: pointer;
+}
+
+.Shield-link:not(:first-child) {
+    margin-left: 5px;
+}

@@ -1,0 +1,16 @@
+.Card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 5px 15px var(--box-shadow-color);
+    transition: box-shadow 0.2s ease-in;
+}
+
+.Card-padding-small {
+    padding: 20px;
+}
+
+.Card-padding-large {
+    padding: 80px;
+}

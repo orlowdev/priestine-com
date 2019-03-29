@@ -1,0 +1,22 @@
+pre {
+    border: 0;
+    background-color: var(--pre-bg-color);
+    margin: 0;
+    padding: 0;
+}
+
+.syntax-box {
+    background-color: var(--pre-bg-color);
+    margin: 0;
+    padding: 20px;
+    transition: all 0.2s ease-in;
+    max-width: 800px;
+    margin: auto;
+}
+
+.syntax-box-header {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    color: white;
+}

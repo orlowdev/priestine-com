@@ -1,0 +1,3 @@
+.social > a:not(:first-child) {
+    margin-left: 10px;
+}
