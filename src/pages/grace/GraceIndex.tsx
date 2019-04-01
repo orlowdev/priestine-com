@@ -7,13 +7,12 @@ export interface TutorialPageProps {
   handleLanguageSwitch: () => any;
 }
 
+// TODO: Add markdown-aware component
 export const GraceIndex = ({
   language,
   handleLanguageSwitch
 }: TutorialPageProps) => (
   <div>
-    {/*TODO: NavBar Mobile View*/}
-
     <header className="App-header">
       <Card className="Card-padding-large">
         <div className="uk-text-center">
@@ -36,6 +35,7 @@ export const GraceIndex = ({
       </Card>
     </header>
 
+    {/* TODO: Rewrite card with styled-components  */}
     <Card className="Card-padding-large">
       <div className="uk-container uk-child-width-1-3@s" data-uk-grid>
         <div>

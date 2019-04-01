@@ -13,13 +13,16 @@ body {
   min-height: 100vh;
   position: relative;
   padding: 0 0 8rem;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   background-color: #303030;
+  -webkit-transition: background-color 0.2s ease-in;
   transition: background-color 0.2s ease-in;
 }
 
 h1, h2, h3, h4, h5, p, a, i, li, div {
   color: var(--main-color);
+  -webkit-transition: color 0.2s ease-in;
   transition: color 0.2s ease-in;
 }
 
@@ -42,7 +45,8 @@ a:hover {
 
 .uk-badge {
   background-color: #b97cc4;
-  box-shadow: inset 0 5px 15px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: inset 0 5px 15px rgba(0, 0, 0, 0.3);
+          box-shadow: inset 0 5px 15px rgba(0, 0, 0, 0.3);
   font-weight: bold;
   padding: 3px 10px;
 }
